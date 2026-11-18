@@ -7,7 +7,7 @@ CONTENIDO
   Parte1_seguridad_redes/
      evidencias/   original (+SHA256SUMS), trabajo, pki (certificados de laboratorio)
      scripts/      lib.py + caso1..caso10 (regeneran PCAP, CSV y figuras de forma reproducible)
-     figuras_parte1/  35 figuras (gráficas, pantallazos simulados, matrices, diagramas)
+     figuras_parte1/  35 figuras (gráficas, pantallazos, matrices, diagramas)
   Parte2_geoconsent/
      backend/      API REST (Flask), JWT, geofencing, alertas, consent_log
      simulator/    generador de recorridos + demostración extremo a extremo sobre HTTP real
