@@ -1,0 +1,12 @@
+{
+ "paquetes": 14878,
+ "flujos": 888,
+ "rst_total": 154,
+ "por_categoria": {
+  "B · puerto cerrado (RST/ACK al SYN)": 69,
+  "C · cierre abortivo del cliente": 56,
+  "A · coincide con reinicio de servicio (7036)": 15,
+  "D · RST con TTL/MAC incoherentes (posible inyección)": 7,
+  "D' · RST del cliente tras desincronización": 7
+ }
+}

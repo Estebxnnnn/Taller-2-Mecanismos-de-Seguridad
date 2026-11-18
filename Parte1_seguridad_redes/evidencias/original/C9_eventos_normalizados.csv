@@ -1,0 +1,209 @@
+@timestamp,event.provider,rule.id,rule.name,source.ip,destination.ip,event.severity,evidence.ref,event.id
+2026-11-05T09:02:00-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,fc17277168ec
+2026-11-05T09:02:10-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,6882422bc41b
+2026-11-05T09:02:20-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,2dd41ba9b8c3
+2026-11-05T09:02:30-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,579fef302931
+2026-11-05T09:02:40-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,c9eef21109b9
+2026-11-05T09:02:50-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,bfd7a427b65d
+2026-11-05T09:03:00-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,ba0854a988d2
+2026-11-05T09:03:10-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,1d4090ded958
+2026-11-05T09:03:20-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,0069555b163c
+2026-11-05T09:03:30-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,234bbe19bb2d
+2026-11-05T09:03:40-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,1115f4d1e932
+2026-11-05T09:03:50-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,fe19e0bcb7ca
+2026-11-05T09:04:00-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,bc76852a860e
+2026-11-05T09:04:10-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,0613e79163a8
+2026-11-05T09:04:20-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,a2190bf19253
+2026-11-05T09:04:30-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,edc29171886c
+2026-11-05T09:04:40-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,1ad692ad44ad
+2026-11-05T09:04:50-05:00,suricata,1000101,LAB TCP SYN > 50/s sostenido hacia servidor web,198.18.0.0/15,192.168.50.20,3,C1_synflood_lab.pcap,5aac7311b50e
+2026-11-05T09:02:30-05:00,windows,perfmon,TCPv4 Connections Failed/s > 100 (SRV-WEB-LAB),192.168.50.20,192.168.50.20,2,C1_conteo_por_segundo.csv,493c8e55775e
+2026-11-05T09:03:00-05:00,windows,perfmon,TCPv4 Connections Failed/s > 100 (SRV-WEB-LAB),192.168.50.20,192.168.50.20,2,C1_conteo_por_segundo.csv,31f41707f22e
+2026-11-05T09:03:30-05:00,windows,perfmon,TCPv4 Connections Failed/s > 100 (SRV-WEB-LAB),192.168.50.20,192.168.50.20,2,C1_conteo_por_segundo.csv,51feac127251
+2026-11-05T09:04:00-05:00,windows,perfmon,TCPv4 Connections Failed/s > 100 (SRV-WEB-LAB),192.168.50.20,192.168.50.20,2,C1_conteo_por_segundo.csv,788a972ed57f
+2026-11-05T09:04:30-05:00,windows,perfmon,TCPv4 Connections Failed/s > 100 (SRV-WEB-LAB),192.168.50.20,192.168.50.20,2,C1_conteo_por_segundo.csv,f5a918b477b7
+2026-11-05T09:05:00-05:00,windows,perfmon,TCPv4 Connections Failed/s > 100 (SRV-WEB-LAB),192.168.50.20,192.168.50.20,2,C1_conteo_por_segundo.csv,6c340771bb68
+2026-11-05T10:05:00-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,53a34bbcd9af
+2026-11-05T10:05:12-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,1835488fc9e5
+2026-11-05T10:05:24-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,6ce5c57e05ef
+2026-11-05T10:05:36-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,96011d5a62f2
+2026-11-05T10:05:48-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,1191cb329afb
+2026-11-05T10:06:00-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,5ae320be8f06
+2026-11-05T10:06:12-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,2f872b64f076
+2026-11-05T10:06:24-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,87f3db488ecd
+2026-11-05T10:06:36-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,65f5393fda5d
+2026-11-05T10:06:48-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,5307a2a9c330
+2026-11-05T10:07:00-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,53513580f2b9
+2026-11-05T10:07:12-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,ff2354573ef3
+2026-11-05T10:07:24-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,ca243e7f596c
+2026-11-05T10:07:36-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,66ec6b98bbc6
+2026-11-05T10:07:48-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,dfa598b0e811
+2026-11-05T10:08:00-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,2acded9a6ab6
+2026-11-05T10:08:12-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,4e2ec74d4f44
+2026-11-05T10:08:24-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,0c8d37e370b1
+2026-11-05T10:08:36-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,222a4d201672
+2026-11-05T10:08:48-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,c9e9193e63cb
+2026-11-05T10:09:01-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,72509fd19196
+2026-11-05T10:09:13-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,098c07b92516
+2026-11-05T10:09:25-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,ab865a7151e5
+2026-11-05T10:09:37-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,543c82dc2c5c
+2026-11-05T10:09:49-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,7460d789c05c
+2026-11-05T10:10:01-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,6247105bcb8c
+2026-11-05T10:10:13-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,a3ceefc4eb3a
+2026-11-05T10:10:25-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,890a269e5184
+2026-11-05T10:10:37-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,2a7456c1522b
+2026-11-05T10:10:49-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,5e81516f27b7
+2026-11-05T10:11:01-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,2cf799d7a4a3
+2026-11-05T10:11:13-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,f92933dd298d
+2026-11-05T10:11:25-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,6c769041b10c
+2026-11-05T10:11:37-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,47919270fbd9
+2026-11-05T10:11:49-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,b9668bd9de24
+2026-11-05T10:12:01-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,c41d6f167379
+2026-11-05T10:12:13-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,9e761a6c5b84
+2026-11-05T10:12:25-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,978baae5b736
+2026-11-05T10:12:37-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,9b69b3aaecb4
+2026-11-05T10:12:50-05:00,zeek,dns.long_qname,"Consulta DNS > 52 car. y entropía > 3,8",192.168.50.44,192.168.50.53,3,C2_dns_tunel_entrenamiento.pcap,27950d6c8d6c
+2026-11-05T10:05:00-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,f3dfac8aedff
+2026-11-05T10:06:07-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,3e9eeecbec19
+2026-11-05T10:07:14-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,5262109713a0
+2026-11-05T10:08:21-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,4ffc46ed19a8
+2026-11-05T10:09:28-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,4e81dc307017
+2026-11-05T10:10:35-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,4e9c204e9482
+2026-11-05T10:11:42-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,b4cd2d167630
+2026-11-05T10:12:50-05:00,bind9,query-log,Volumen TXT inusual hacia *.exfil-lab.test,192.168.50.44,192.168.50.53,2,C2_consultas_dns.csv,81bad909716b
+2026-11-05T10:01:00-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,06b0131a4e7c
+2026-11-05T10:01:35-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,2355ea8e8a78
+2026-11-05T10:02:10-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,877fdb55389e
+2026-11-05T10:02:46-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,42b0023daf35
+2026-11-05T10:03:21-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,fb58f905f8d5
+2026-11-05T10:03:57-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,b9db34545317
+2026-11-05T10:04:32-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,31151621096d
+2026-11-05T10:05:07-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,0fc9d68efc62
+2026-11-05T10:05:43-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,3ec94b935468
+2026-11-05T10:06:18-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,be4f05b63d96
+2026-11-05T10:06:54-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,f1be5c0f5888
+2026-11-05T10:07:29-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,9ee66288da4f
+2026-11-05T10:08:05-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,a983469ffcd9
+2026-11-05T10:08:40-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,a082d3525c0c
+2026-11-05T10:09:15-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,0bfcc2a3cced
+2026-11-05T10:09:51-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,82be22e10068
+2026-11-05T10:10:26-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,3d0f118855a2
+2026-11-05T10:11:02-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,18994d9242cd
+2026-11-05T10:11:37-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,a57f5f7c3a2a
+2026-11-05T10:12:12-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,3fe836951357
+2026-11-05T10:12:48-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,622fd74e25bd
+2026-11-05T10:13:23-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,54e16911d216
+2026-11-05T10:13:59-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,d27882cb196a
+2026-11-05T10:14:34-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,219d42d8b08a
+2026-11-05T10:15:10-05:00,firewall,dns-egress,DNS hacia resolver no autorizado 192.168.50.99,192.168.50.66,192.168.50.99,2,C2_consultas_dns.csv,89dcc0510fb2
+2026-11-05T10:00:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,79f43bf2569a
+2026-11-05T10:01:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,afc7dae87df0
+2026-11-05T10:02:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,a2f60089eda6
+2026-11-05T10:03:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,c13ef6b9efd4
+2026-11-05T10:04:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,861b04f2b78c
+2026-11-05T10:05:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,886c15954427
+2026-11-05T10:06:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,d8b1a790eabb
+2026-11-05T10:07:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,49a15965d22d
+2026-11-05T10:08:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,07d11afc923c
+2026-11-05T10:09:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,62bbb8c6b268
+2026-11-05T10:10:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,5ef31ed64120
+2026-11-05T10:11:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,efb2577253d8
+2026-11-05T10:12:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,2f30708f2a89
+2026-11-05T10:13:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,e4ca02831429
+2026-11-05T10:14:03-05:00,zeek,dns.long_qname,Consulta DNS > 30 car. con etiqueta hexadecimal,192.168.50.115,192.168.50.53,1,C2_consultas_dns.csv,b7460b7b23f9
+2026-11-05T11:10:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,b1d06fbd2240
+2026-11-05T11:11:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,976aa99da10b
+2026-11-05T11:12:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,2bf41f9e0324
+2026-11-05T11:13:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,5f29ed40f331
+2026-11-05T11:14:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,86cb91bfb16f
+2026-11-05T11:15:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,df9e96ac2407
+2026-11-05T11:16:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,599f17719a72
+2026-11-05T11:17:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,1e85efdfe448
+2026-11-05T11:18:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,b07ad0f3660d
+2026-11-05T11:19:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,3d077312a67d
+2026-11-05T11:20:00-05:00,windows,4625,Fallos de inicio de sesión RDP > 10/min,192.168.50.66,192.168.50.20,3,C3_eventos_autenticacion.csv,3d49ba3ac276
+2026-11-05T11:10:24-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,5f04194ae9e0
+2026-11-05T11:11:36-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,61c1b8264c16
+2026-11-05T11:12:49-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,3e1e7da8064d
+2026-11-05T11:14:01-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,6374d5aaffa8
+2026-11-05T11:15:14-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,930275f43771
+2026-11-05T11:16:26-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,38940f8404a4
+2026-11-05T11:17:39-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,4c0c1f08d459
+2026-11-05T11:18:51-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,303efade1c0d
+2026-11-05T11:20:04-05:00,filezilla,530,Fallos de autenticación FTP repetidos,192.168.50.66,192.168.50.20,2,C3_eventos_autenticacion.csv,2ab1e07dc6ab
+2026-11-05T11:21:40-05:00,filezilla,230,Inicio de sesión FTP anónimo aceptado,192.168.50.112,192.168.50.20,2,C3_ftp_texto_claro.pcap,19310c19fbf5
+2026-11-05T10:06:00-05:00,ml-iforest,anomaly,"Score de anomalía > p99,5 (DNS qname largo)",192.168.50.44,-,2,C4_metricas.json,16287b1937c9
+2026-11-05T10:07:40-05:00,ml-iforest,anomaly,"Score de anomalía > p99,5 (DNS qname largo)",192.168.50.44,-,2,C4_metricas.json,4b0ac165ad3f
+2026-11-05T10:09:20-05:00,ml-iforest,anomaly,"Score de anomalía > p99,5 (DNS qname largo)",192.168.50.44,-,2,C4_metricas.json,3a20a0e97910
+2026-11-05T10:11:00-05:00,ml-iforest,anomaly,"Score de anomalía > p99,5 (DNS qname largo)",192.168.50.44,-,2,C4_metricas.json,5d49c64cac46
+2026-11-05T16:10:00-05:00,ml-iforest,anomaly,"Score de anomalía > p99,5 (puertos únicos)",192.168.50.66,-,2,C4_metricas.json,610921138eb0
+2026-11-05T13:20:02-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,f110936dec7b
+2026-11-05T13:20:37-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,0e62f7e149a9
+2026-11-05T13:21:13-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,a9ce6380392c
+2026-11-05T13:21:49-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,4700d57d5df1
+2026-11-05T13:22:25-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,e85eea75e669
+2026-11-05T13:23:01-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,36efab6050e2
+2026-11-05T13:23:37-05:00,suricata,1000501,LAB TCP RST con TTL distinto al de la sesión,192.168.50.20,192.168.50.121,3,C5_tcp_resets_lab.pcap,0368d80af6fd
+2026-11-05T13:20:02-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,189c4be3ee8f
+2026-11-05T13:20:37-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,84c26fab71d9
+2026-11-05T13:21:13-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,8a5b472dacce
+2026-11-05T13:21:49-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,fdf462c1c54b
+2026-11-05T13:22:25-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,d6f71c6e769c
+2026-11-05T13:23:01-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,c0aae77f0090
+2026-11-05T13:23:37-05:00,zeek,weird.data_after_reset,Datos tras RST en la misma conexión,192.168.50.121,192.168.50.20,2,C5_tcp_resets_lab.pcap,e440ec8664df
+2026-11-05T13:20:02-05:00,switch,port-security,MAC 00:50:56:a1:00:66 vista con IP origen 192.168.50.20 (puerto Gi0/12 = host .66),192.168.50.66,192.168.50.121,3,C5_tabla_rst.csv,b6314741b0a5
+2026-11-05T13:12:00-05:00,windows,7036,Servicio Tomcat9 detenido / iniciado (cambio planificado CHG-118),192.168.50.20,192.168.50.20,1,C5_tabla_rst.csv,816e4dcfa263
+2026-11-05T13:12:04-05:00,windows,7036,Servicio Tomcat9 detenido / iniciado (cambio planificado CHG-118),192.168.50.20,192.168.50.20,1,C5_tabla_rst.csv,c804e187f5bc
+2026-11-05T14:04:00-05:00,gateway,udp-asym,Respuestas UDP no solicitadas (ratio > 5) DNS/NTP/SSDP,"198.51.100.0/24,203.0.113.0/24",192.168.50.20,3,C6_contadores_udp_gateway.csv,578305f2f97b
+2026-11-05T14:05:25-05:00,gateway,udp-asym,Respuestas UDP no solicitadas (ratio > 5) DNS/NTP/SSDP,"198.51.100.0/24,203.0.113.0/24",192.168.50.20,3,C6_contadores_udp_gateway.csv,e77454df8519
+2026-11-05T14:06:50-05:00,gateway,udp-asym,Respuestas UDP no solicitadas (ratio > 5) DNS/NTP/SSDP,"198.51.100.0/24,203.0.113.0/24",192.168.50.20,3,C6_contadores_udp_gateway.csv,a185f5f14342
+2026-11-05T15:05:00-05:00,suricata,1000701,Barrido ICMP > 50 destinos/10 s,192.168.50.66,192.168.50.0/24,2,C7_icmp_lab.pcap,9f06d3f3e818
+2026-11-05T15:10:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,fe50d9227e21
+2026-11-05T15:11:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,1b05d8f82249
+2026-11-05T15:12:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,f8c68b13ab96
+2026-11-05T15:13:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,57f91b5056e7
+2026-11-05T15:14:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,4153503b0fa2
+2026-11-05T15:15:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,8126b4a05d81
+2026-11-05T15:16:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,fd11471864d9
+2026-11-05T15:17:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,3383b883f0d0
+2026-11-05T15:18:00-05:00,suricata,1000702,ICMP echo con payload > 512 B persistente,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,dba7b82dd0d9
+2026-11-05T15:10:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,b6e28d8afa64
+2026-11-05T15:11:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,8981dafee583
+2026-11-05T15:12:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,96caff987b2c
+2026-11-05T15:13:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,ba4a0d3f4e69
+2026-11-05T15:14:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,80ec5de973a3
+2026-11-05T15:15:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,3aa417f87b07
+2026-11-05T15:16:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,8dc541b67ac2
+2026-11-05T15:17:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,4c2c0504e5f2
+2026-11-05T15:18:00-05:00,zeek,icmp.payload_mismatch,Echo reply con payload distinto al request,192.168.50.77,192.168.50.250,3,C7_icmp_lab.pcap,e50d6257a488
+2026-11-05T16:10:01-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,368b5527a775
+2026-11-05T16:10:01-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,368b5527a775
+2026-11-05T16:10:02-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,214214164109
+2026-11-05T16:10:03-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,bbc422057688
+2026-11-05T16:10:03-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,bbc422057688
+2026-11-05T16:10:04-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,93820f22b4bb
+2026-11-05T16:10:05-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,0159a86d7cc3
+2026-11-05T16:10:06-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,ae92e6b67349
+2026-11-05T16:10:06-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,ae92e6b67349
+2026-11-05T16:10:07-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,be9064f9503a
+2026-11-05T16:10:08-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,6fffca4108a8
+2026-11-05T16:10:09-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.66,192.168.50.20,3,C8_escaneo_autorizado.pcap,985b9a35912f
+2026-11-05T16:10:01-05:00,firewall,pfirewall.DROP,Bloqueo de 135/139 desde LAN de clientes,192.168.50.66,192.168.50.20,1,C8_pfirewall.log,e246b252832e
+2026-11-05T16:10:01-05:00,firewall,pfirewall.DROP,Bloqueo de 135/139 desde LAN de clientes,192.168.50.66,192.168.50.20,1,C8_pfirewall.log,e246b252832e
+2026-11-05T16:10:13-05:00,zeek,banner-grab,Conexiones cortas con lectura de banner (FTP/HTTP/MySQL),192.168.50.66,192.168.50.20,2,C8_escaneo_autorizado.pcap,1ccd8e46175a
+2026-11-05T16:10:14-05:00,zeek,banner-grab,Conexiones cortas con lectura de banner (FTP/HTTP/MySQL),192.168.50.66,192.168.50.20,2,C8_escaneo_autorizado.pcap,bc9ded5624c2
+2026-11-05T16:10:15-05:00,zeek,banner-grab,Conexiones cortas con lectura de banner (FTP/HTTP/MySQL),192.168.50.66,192.168.50.20,2,C8_escaneo_autorizado.pcap,19b9e9287804
+2026-11-05T16:10:16-05:00,zeek,banner-grab,Conexiones cortas con lectura de banner (FTP/HTTP/MySQL),192.168.50.66,192.168.50.20,2,C8_escaneo_autorizado.pcap,02e34b499abb
+2026-11-05T16:40:00-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,49afb03bb02a
+2026-11-05T16:41:05-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,8b708df3035b
+2026-11-05T16:42:11-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,00237f0e1b71
+2026-11-05T16:43:17-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,2c7ff5a6f193
+2026-11-05T16:44:22-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,0c9013f5c603
+2026-11-05T16:45:28-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,f670466a1cd3
+2026-11-05T16:46:34-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,f3c4d08c622d
+2026-11-05T16:47:40-05:00,suricata,1000801,Escaneo SYN > 25 puertos/60 s,192.168.50.15,192.168.50.20,3,C8_escaneo_autorizado.pcap,44d421cbac88
+2026-11-05T16:00:59-05:00,zeek,conn.rej,Conexiones rechazadas dispersas (1 cada 15–35 s),192.168.50.88,192.168.50.20,1,C8_escaneo_autorizado.pcap,8696bbd6d55e
+2026-11-05T16:14:44-05:00,zeek,conn.rej,Conexiones rechazadas dispersas (1 cada 15–35 s),192.168.50.88,192.168.50.20,1,C8_escaneo_autorizado.pcap,39986f585241
+2026-11-05T16:28:29-05:00,zeek,conn.rej,Conexiones rechazadas dispersas (1 cada 15–35 s),192.168.50.88,192.168.50.20,1,C8_escaneo_autorizado.pcap,162f2dd365f4
+2026-11-05T16:42:14-05:00,zeek,conn.rej,Conexiones rechazadas dispersas (1 cada 15–35 s),192.168.50.88,192.168.50.20,1,C8_escaneo_autorizado.pcap,8378c2b2465f
+2026-11-05T16:55:59-05:00,zeek,conn.rej,Conexiones rechazadas dispersas (1 cada 15–35 s),192.168.50.88,192.168.50.20,1,C8_escaneo_autorizado.pcap,388bb1e17131

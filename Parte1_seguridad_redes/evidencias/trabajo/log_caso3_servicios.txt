@@ -1,0 +1,10 @@
+fallidos 191 desde .66 188 cuentas [('backup', 30), ('admin', 25), ('test', 25), ('guest', 24), ('administrador', 23), ('sql', 23), ('web', 21), ('usuario', 17)]
+21 FTP 16
+80 HTTP 4
+443 HTTPS 3
+445 SMB 15
+3389 RDP 20
+3306 MySQL 15
+5985 WinRM-HTTP 8
+8080 HTTP-alt 20
+161 SNMP 9

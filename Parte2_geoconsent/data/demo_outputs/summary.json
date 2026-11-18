@@ -1,0 +1,43 @@
+{
+ "devices": {
+  "dev_d06b0eac501d": "Repartidor 1",
+  "dev_aeba7426116e": "Familiar"
+ },
+ "geofence_events": {
+  "dev_d06b0eac501d": [
+   {
+    "event": "enter",
+    "geofence": "Campus UD",
+    "ts": "2026-11-14T08:04:40-05:00"
+   },
+   {
+    "event": "exit",
+    "geofence": "Campus UD",
+    "ts": "2026-11-14T08:08:00-05:00"
+   },
+   {
+    "event": "enter",
+    "geofence": "Campus UD",
+    "ts": "2026-11-14T08:12:40-05:00"
+   },
+   {
+    "event": "exit",
+    "geofence": "Campus UD",
+    "ts": "2026-11-14T08:14:00-05:00"
+   },
+   {
+    "event": "enter",
+    "geofence": "Casa",
+    "ts": "2026-11-14T08:30:40-05:00"
+   }
+  ],
+  "dev_aeba7426116e": [
+   {
+    "event": "enter",
+    "geofence": "Campus UD",
+    "ts": "2026-11-14T08:11:20-05:00"
+   }
+  ]
+ },
+ "transcript_len": 156
+}

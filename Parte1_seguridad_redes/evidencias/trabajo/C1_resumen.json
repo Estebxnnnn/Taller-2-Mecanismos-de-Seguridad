@@ -1,0 +1,41 @@
+{
+  "base_0_120": {
+    "syn_s": 3.9,
+    "synack_s": 3.9,
+    "ack_s": 3.9,
+    "ratio_ack_syn": 1.0,
+    "legit_total": 466,
+    "legit_ok": 466,
+    "exito_pct": 100.0,
+    "lat_ms": 1.66,
+    "halfopen_max": 0
+  },
+  "rafaga_120_300": {
+    "syn_s": 312.0,
+    "synack_s": 77.2,
+    "ack_s": 0.4,
+    "ratio_ack_syn": 0.001,
+    "legit_total": 706,
+    "legit_ok": 65,
+    "exito_pct": 9.2,
+    "lat_ms": 1.66,
+    "halfopen_max": 512
+  },
+  "mitigada_300_480": {
+    "syn_s": 43.6,
+    "synack_s": 43.5,
+    "ack_s": 3.8,
+    "ratio_ack_syn": 0.088,
+    "legit_total": 692,
+    "legit_ok": 692,
+    "exito_pct": 100.0,
+    "lat_ms": 1.61,
+    "halfopen_max": 512
+  },
+  "snap_halfopen": {
+    "60": 0,
+    "200": 512,
+    "400": 0
+  },
+  "paquetes": 92775
+}

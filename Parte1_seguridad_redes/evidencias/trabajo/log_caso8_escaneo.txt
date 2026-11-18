@@ -1,0 +1,5 @@
+{'origen': '192.168.50.15', 'syn': 2048, 'puertos_unicos': 2048, 'max_puertos_60s': 273, 'abiertos_respondidos': 4, 'cerrados_rst': 2042, 'inicio': '16:40:00', 'fin': '16:47:41', 'banners': 0}
+{'origen': '192.168.50.66', 'syn': 1034, 'puertos_unicos': 1030, 'max_puertos_60s': 1030, 'abiertos_respondidos': 12, 'cerrados_rst': 1020, 'inicio': '16:10:00', 'fin': '16:10:16', 'banners': 4}
+{'origen': '192.168.50.88', 'syn': 135, 'puertos_unicos': 27, 'max_puertos_60s': 3, 'abiertos_respondidos': 40, 'cerrados_rst': 85, 'inicio': '16:00:59', 'fin': '16:56:37', 'banners': 0}
+{'origen': 'clientes .100–.140 (41 hosts)', 'syn': 900, 'puertos_unicos': 2, 'max_puertos_60s': 2, 'abiertos_respondidos': None, 'cerrados_rst': 0, 'inicio': '16:00', 'fin': '17:00', 'banners': 0}
+9186 eabea83477a51430c03539845ac96cea0f01a5fc67d36694246889d15ca8d134

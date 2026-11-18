@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>GeoConsent · Mi dispositivo</title>
+<style>
+.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
+.leaflet-container{overflow:hidden;background:#ddd;outline-offset:1px;-webkit-tap-highlight-color:transparent;font-family:system-ui,sans-serif}
+.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-user-drag:none}
+.leaflet-marker-icon,.leaflet-marker-shadow{display:block}
+.leaflet-container .leaflet-overlay-pane svg{max-width:none!important;max-height:none!important}
+.leaflet-container .leaflet-marker-pane img,.leaflet-container .leaflet-shadow-pane img,.leaflet-container .leaflet-tile-pane img,.leaflet-container img.leaflet-image-layer,.leaflet-container .leaflet-tile{max-width:none!important;max-height:none!important;width:auto;padding:0}
+.leaflet-container.leaflet-touch-zoom{-ms-touch-action:pan-x pan-y;touch-action:pan-x pan-y}
+.leaflet-container.leaflet-touch-drag{-ms-touch-action:pinch-zoom;touch-action:none;touch-action:pinch-zoom}
+.leaflet-tile{filter:inherit;visibility:hidden}
+.leaflet-tile-loaded{visibility:inherit}
+.leaflet-zoom-box{width:0;height:0;box-sizing:border-box;z-index:800}
+.leaflet-overlay-pane svg{-moz-user-select:none}
+.leaflet-pane{z-index:400}
+.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-shadow-pane{z-index:500}.leaflet-marker-pane{z-index:600}.leaflet-tooltip-pane{z-index:650}.leaflet-popup-pane{z-index:700}
+.leaflet-map-pane canvas{z-index:100}.leaflet-map-pane svg{z-index:200}
+.leaflet-control{position:relative;z-index:800;pointer-events:visiblePainted;pointer-events:auto;float:left;clear:both}
+.leaflet-top,.leaflet-bottom{position:absolute;z-index:1000;pointer-events:none}
+.leaflet-top{top:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-right{right:0}
+.leaflet-left .leaflet-control{margin-left:10px}.leaflet-right .leaflet-control{float:right;margin-right:10px}
+.leaflet-top .leaflet-control{margin-top:10px}.leaflet-bottom .leaflet-control{margin-bottom:10px}
+.leaflet-fade-anim .leaflet-popup{opacity:0;transition:opacity .2s linear}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup{opacity:1}
+.leaflet-zoom-animated{transform-origin:0 0}
+svg.leaflet-zoom-animated{will-change:transform}
+.leaflet-zoom-anim .leaflet-zoom-animated{transition:transform .25s cubic-bezier(0,0,0.25,1)}
+.leaflet-zoom-anim .leaflet-tile,.leaflet-pan-anim .leaflet-tile{transition:none}
+.leaflet-zoom-anim .leaflet-zoom-hide{visibility:hidden}
+.leaflet-interactive{cursor:pointer}
+.leaflet-grab{cursor:grab}
+.leaflet-crosshair,.leaflet-crosshair .leaflet-interactive{cursor:crosshair}
+.leaflet-popup-pane,.leaflet-control{cursor:auto}
+.leaflet-dragging .leaflet-grab,.leaflet-dragging .leaflet-grab .leaflet-interactive,.leaflet-dragging .leaflet-marker-draggable{cursor:grabbing}
+.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-image-layer,.leaflet-pane>svg path,.leaflet-tile-container{pointer-events:none}
+.leaflet-marker-icon.leaflet-interactive,.leaflet-image-layer.leaflet-interactive,.leaflet-pane>svg path.leaflet-interactive,svg.leaflet-image-layer.leaflet-interactive path{pointer-events:visiblePainted;pointer-events:auto}
+.leaflet-container a{color:#0078A8}
+.leaflet-bar{box-shadow:0 1px 5px rgba(0,0,0,0.65);border-radius:4px}
+.leaflet-bar a{background:#fff;border-bottom:1px solid #ccc;width:26px;height:26px;line-height:26px;display:block;text-align:center;text-decoration:none;color:#000;font:bold 18px 'Lucida Console',Monaco,monospace}
+.leaflet-bar a:hover{background:#f4f4f4}
+.leaflet-bar a:first-child{border-top-left-radius:4px;border-top-right-radius:4px}
+.leaflet-bar a:last-child{border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-bottom:none}
+.leaflet-control-zoom-in,.leaflet-control-zoom-out{font:bold 18px 'Lucida Console',Monaco,monospace}
+.leaflet-control-attribution{background:rgba(255,255,255,0.8);margin:0;padding:0 5px;color:#333;font:12px/1.5 system-ui,sans-serif}
+.leaflet-control-attribution a{text-decoration:none}
+.leaflet-popup{position:absolute;text-align:center;margin-bottom:20px}
+.leaflet-popup-content-wrapper{padding:1px;text-align:left;border-radius:12px;background:#fff;box-shadow:0 3px 14px rgba(0,0,0,0.4)}
+.leaflet-popup-content{margin:10px 14px;line-height:1.3;font-size:13px;min-height:1px}
+.leaflet-popup-tip-container{width:40px;height:20px;position:absolute;left:50%;margin-top:-1px;margin-left:-20px;overflow:hidden;pointer-events:none}
+.leaflet-popup-tip{width:17px;height:17px;padding:1px;margin:-10px auto 0;pointer-events:auto;background:#fff;transform:rotate(45deg);box-shadow:0 3px 14px rgba(0,0,0,0.4)}
+.leaflet-popup-close-button{position:absolute;top:0;right:0;width:24px;height:24px;font:16px/24px Tahoma,Verdana,sans-serif;color:#757575;text-align:center;text-decoration:none;background:transparent}
+.leaflet-container.leaflet-touch .leaflet-bar a{width:30px;height:30px;line-height:30px}
+
+</style>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+ *{box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
+ body{margin:0;background:#f1f5f9;color:#1e293b}
+ .wrap{max-width:460px;margin:0 auto;min-height:100vh;background:#fff;display:flex;flex-direction:column}
+ header{background:#16a34a;color:#fff;padding:14px 18px}
+ header.pending{background:#2563eb}
+ header h1{margin:0;font-size:18px}header small{opacity:.85;font-size:12px}
+ .card{margin:12px;padding:14px;border:1px solid #e2e8f0;border-radius:12px}
+ .banner{display:flex;gap:10px;align-items:center;background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;
+   padding:10px 12px;border-radius:12px;margin:12px;font-weight:600}
+ .banner .d{width:12px;height:12px;border-radius:50%;background:#16a34a;animation:pulse 1.4s infinite}
+ @keyframes pulse{0%{opacity:1}50%{opacity:.3}100%{opacity:1}}
+ label{display:block;font-size:12px;color:#64748b;margin:10px 0 4px}
+ input{width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:9px;font-size:14px}
+ .row{display:flex;gap:10px}.row>div{flex:1}
+ button{width:100%;padding:13px;border:0;border-radius:11px;font-size:15px;font-weight:700;cursor:pointer;margin-top:10px}
+ .primary{background:#16a34a;color:#fff}.warn{background:#d97706;color:#fff}.danger{background:#fff;color:#dc2626;border:2px solid #dc2626}
+ .chk{display:flex;gap:9px;align-items:flex-start;font-size:13px;color:#475569;margin-top:12px}
+ .kv{display:flex;justify-content:space-between;font-size:14px;padding:5px 0}.kv b{font-variant-numeric:tabular-nums}
+ #map{height:230px;border-radius:12px;margin:12px}
+ .note{font-size:11px;color:#94a3b8;margin:10px 12px;line-height:1.5}
+ #log{font-family:ui-monospace,Menlo,monospace;font-size:11px;background:#0f172a;color:#86efac;border-radius:10px;
+   margin:12px;padding:10px;height:120px;overflow:auto;white-space:pre-wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header id="hdr" class="pending"><h1>GeoConsent · Mi dispositivo</h1><small id="sub">Pantalla de consentimiento</small></header>
+
+ <section id="consent">
+  <div class="card">
+   <p style="margin:0 0 6px;font-weight:700">Solicitud de ubicación</p>
+   <p style="margin:0;color:#64748b;font-size:14px">Una organización te invitó a compartir tu ubicación. Revisa los datos, da tu consentimiento y podrás pausar o revocar cuando quieras.</p>
+   <label>Servidor (backend)</label><input id="url" value="http://127.0.0.1:5055" />
+   <label>Token del dispositivo (lo obtienes al verificar tu código)</label><input id="token" placeholder="Pega aquí tu device_token… o deja vacío para MODO DEMO"/>
+   <div class="row"><div><label>Intervalo (s)</label><input id="interval" type="number" value="10"/></div>
+     <div><label>Alias</label><input id="alias" value="Mi equipo"/></div></div>
+   <div class="chk"><input type="checkbox" id="ok" style="width:auto;margin-top:2px"/>
+     <span>Autorizo compartir mi ubicación con quien me invitó. Entiendo que puedo <b>pausar</b> o <b>dejar de compartir</b> (lo que borra mi historial) en cualquier momento.</span></div>
+   <button class="primary" id="start">Autorizar y empezar a compartir</button>
+   <p class="note">Esta app solo envía tu ubicación mientras tú la tengas activa. No puede ser activada de forma remota ni oculta: tú ves este indicador todo el tiempo.</p>
+  </div>
+ </section>
+
+ <section id="live" style="display:none">
+  <div class="banner"><span class="d"></span><div>Compartiendo tu ubicación<br><small style="font-weight:400" id="laststamp">—</small></div></div>
+  <div id="map"></div>
+  <div class="card">
+   <div class="kv"><span>Latitud, Longitud</span><b id="ll">—</b></div>
+   <div class="kv"><span>Precisión GPS</span><b id="acc">—</b></div>
+   <div class="kv"><span>Velocidad</span><b id="spd">—</b></div>
+   <div class="kv"><span>Batería</span><b id="bat">—</b></div>
+   <div class="kv"><span>Envíos al servidor</span><b id="sent">0</b></div>
+   <div class="kv"><span>Estado</span><b id="state" style="color:#16a34a">activo</b></div>
+   <button class="warn" id="pause">Pausar compartición</button>
+   <button class="danger" id="stop">Dejar de compartir y borrar</button>
+  </div>
+  <div id="log"></div>
+  <p class="note">MODO DEMO (sin token): la ubicación se muestra localmente y NO se envía a ningún servidor.</p>
+ </section>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+let watch=null,sent=0,paused=false,demo=false,batt=null,map=null,me=null,path=null,timer=null,last=null;
+function log(m){const l=$('log');l.textContent+=new Date().toLocaleTimeString()+'  '+m+'\n';l.scrollTop=l.scrollHeight;}
+if(navigator.getBattery)navigator.getBattery().then(b=>batt=b);
+$('start').onclick=()=>{
+  if(!$('ok').checked){alert('Debes dar tu consentimiento para continuar.');return;}
+  demo=!$('token').value.trim();
+  $('consent').style.display='none';$('live').style.display='block';
+  $('hdr').className='';$('sub').textContent=demo?'Compartiendo · MODO DEMO (no se envía a servidor)':'Compartiendo con el propietario';
+  map=L.map('map').setView([4.61,-74.08],15);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
+  path=L.polyline([],{color:'#16a34a',weight:4}).addTo(map);
+  if(!navigator.geolocation){log('Este navegador no tiene geolocalización.');return;}
+  log('Consentimiento registrado. Solicitando permiso de ubicación…');
+  watch=navigator.geolocation.watchPosition(onPos,onErr,{enableHighAccuracy:true,maximumAge:3000,timeout:15000});
+  timer=setInterval(push,Math.max(3,(+$('interval').value||10))*1000);
+};
+function onPos(p){last=p.coords;const c=p.coords;
+  $('ll').textContent=c.latitude.toFixed(5)+', '+c.longitude.toFixed(5);
+  $('acc').textContent='±'+Math.round(c.accuracy)+' m';
+  $('spd').textContent=(c.speed!=null?(c.speed*3.6).toFixed(1):'0.0')+' km/h';
+  $('bat').textContent=batt?Math.round(batt.level*100)+'%':'(no disponible)';
+  $('laststamp').textContent='Actualizado '+new Date().toLocaleTimeString();
+  if(!me){me=L.circleMarker([c.latitude,c.longitude],{radius:8,color:'#fff',weight:2,fillColor:'#16a34a',fillOpacity:1}).addTo(map);map.setView([c.latitude,c.longitude],16);}
+  else me.setLatLng([c.latitude,c.longitude]);
+  path.addLatLng([c.latitude,c.longitude]);
+}
+function onErr(e){log('Permiso/GPS no disponible: '+e.message+'. (En un phone, acepta el permiso de ubicación.)');}
+function push(){
+  if(paused||!last)return;
+  const body={lat:last.latitude,lon:last.longitude,accuracy_m:Math.round(last.accuracy),
+    speed_kmh:last.speed!=null?+(last.speed*3.6).toFixed(1):0,battery:batt?Math.round(batt.level*100):null,
+    ts:new Date().toISOString()};
+  if(demo){sent++;$('sent').textContent=sent;log('DEMO (no enviado) '+JSON.stringify(body));return;}
+  fetch($('url').value.replace(/\/$/,'')+'/api/v1/locations',{method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+$('token').value.trim()},
+    body:JSON.stringify(body)}).then(r=>r.json().then(j=>({s:r.status,j})))
+   .then(({s,j})=>{sent++;$('sent').textContent=sent;
+     log('POST /locations → '+s+' '+JSON.stringify(j).slice(0,120));
+     if(j.geofence_events&&j.geofence_events.length)log('  ⚑ geocerca: '+JSON.stringify(j.geofence_events));})
+   .catch(e=>log('Error de red: '+e));
+}
+$('pause').onclick=function(){paused=!paused;this.textContent=paused?'Reanudar compartición':'Pausar compartición';
+  $('state').textContent=paused?'pausado':'activo';$('state').style.color=paused?'#d97706':'#16a34a';
+  if(!demo)fetch($('url').value.replace(/\/$/,'')+'/api/v1/devices/sharing',{method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+$('token').value.trim()},
+    body:JSON.stringify({state:paused?'paused':'active'})}).then(()=>log('sharing → '+(paused?'paused':'active')));};
+$('stop').onclick=function(){
+  if(!confirm('¿Dejar de compartir y borrar tu historial del servidor?'))return;
+  if(watch)navigator.geolocation.clearWatch(watch);clearInterval(timer);
+  $('state').textContent='revocado';$('state').style.color='#dc2626';
+  if(!demo)fetch($('url').value.replace(/\/$/,'')+'/api/v1/devices/me',{method:'DELETE',
+    headers:{'Authorization':'Bearer '+$('token').value.trim()}}).then(r=>r.json()).then(j=>log('DELETE /devices/me → '+JSON.stringify(j)));
+  document.querySelector('.banner').style.background='#fef2f2';document.querySelector('.banner').style.color='#991b1b';
+  document.querySelector('.banner .d').style.background='#dc2626';
+  document.querySelector('.banner div').innerHTML='Compartición detenida<br><small>Tu historial fue borrado.</small>';
+  this.disabled=$('pause').disabled=true;log('Compartición revocada por el titular.');};
+</script>
+</body>
+</html>

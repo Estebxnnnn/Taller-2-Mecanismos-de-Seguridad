@@ -1,0 +1,14 @@
+{
+ "avg_speed_kmh": 12.5,
+ "battery_end": 87,
+ "battery_start": 88,
+ "device_id": "dev_aeba7426116e",
+ "distance_km": 2.754,
+ "duration_min": 12.7,
+ "max_speed_kmh": 16.0,
+ "minutes_in_geofence": {
+  "Campus UD": 1.7,
+  "Casa": 0.7
+ },
+ "points": 39
+}

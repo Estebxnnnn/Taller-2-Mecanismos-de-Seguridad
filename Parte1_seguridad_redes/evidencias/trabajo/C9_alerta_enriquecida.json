@@ -1,0 +1,55 @@
+{
+ "alert.id": "LAB-2026-11-05-0007",
+ "entidad": "192.168.50.66",
+ "activo": "ws-lab-66 (VM de estudiante, VLAN 50, switch Gi0/12)",
+ "score": 100,
+ "prioridad": "P1 – Crítica",
+ "explicacion_score": {
+  "severidad_por_tecnica": 72,
+  "convergencia_fuentes": 40,
+  "criticidad_destino(192.168.50.20)": 1.3
+ },
+ "cronologia": [
+  "10:01:00 DNS hacia resolver no autorizado 192.168.50.99 (x24, firewall)",
+  "10:15:10 DNS hacia resolver no autorizado 192.168.50.99 (x1, firewall)",
+  "11:10:00 Fallos de inicio de sesión RDP > 10/min (x5, windows)",
+  "11:10:24 Fallos de autenticación FTP repetidos (x4, filezilla)",
+  "11:15:00 Fallos de inicio de sesión RDP > 10/min (x6, windows)",
+  "11:15:14 Fallos de autenticación FTP repetidos (x5, filezilla)",
+  "13:20:02 LAB TCP RST con TTL distinto al de la sesión (x7, suricata)",
+  "13:20:02 MAC 00:50:56:a1:00:66 vista con IP origen 192.168.50.20 (puerto Gi0/12 = host .66) (x1, switch)",
+  "13:20:02 Datos tras RST en la misma conexión (x7, zeek)",
+  "15:05:00 Barrido ICMP > 50 destinos/10 s (x1, suricata)",
+  "16:10:00 Score de anomalía > p99,5 (puertos únicos) (x1, ml-iforest)",
+  "16:10:01 Escaneo SYN > 25 puertos/60 s (x12, suricata)",
+  "16:10:01 Bloqueo de 135/139 desde LAN de clientes (x2, firewall)",
+  "16:10:13 Conexiones cortas con lectura de banner (FTP/HTTP/MySQL) (x4, zeek)"
+ ],
+ "evidencia": [
+  "C2_consultas_dns.csv",
+  "C3_eventos_autenticacion.csv",
+  "C4_metricas.json",
+  "C5_tabla_rst.csv",
+  "C5_tcp_resets_lab.pcap",
+  "C7_icmp_lab.pcap",
+  "C8_escaneo_autorizado.pcap",
+  "C8_pfirewall.log"
+ ],
+ "event_ids": [
+  "06b0131a4e7c",
+  "2355ea8e8a78",
+  "877fdb55389e",
+  "42b0023daf35",
+  "fb58f905f8d5",
+  "b9db34545317",
+  "…"
+ ],
+ "mitre_attack": [
+  "T1046 Network Service Discovery",
+  "T1018 Remote System Discovery",
+  "T1110 Brute Force",
+  "T1557 Adversary-in-the-Middle (hipótesis)"
+ ],
+ "accion_sugerida": "Aislar ws-lab-66 en VLAN de cuarentena TRAS validación humana; preservar memoria/disco; revisar ARP/CAM del switch",
+ "estado": "Pendiente de validación humana"
+}

@@ -1,0 +1,33 @@
+GUÍA-TALLER No. 2 — Mecanismos de seguridad para redes IEEE 802.3 con servidores TCP/IP
+Universidad Distrital FJDC · Entrega Parte I + Parte II
+
+CONTENIDO
+  Informe_Parte1_y_Parte2.md        Copia en texto del informe completo (las imágenes se
+                                    ven en el documento en línea; aquí quedan como referencia).
+  Parte1_seguridad_redes/
+     evidencias/   original (+SHA256SUMS), trabajo, pki (certificados de laboratorio)
+     scripts/      lib.py + caso1..caso10 (regeneran PCAP, CSV y figuras de forma reproducible)
+     figuras_parte1/  35 figuras (gráficas, pantallazos simulados, matrices, diagramas)
+  Parte2_geoconsent/
+     backend/      API REST (Flask), JWT, geofencing, alertas, consent_log
+     simulator/    generador de recorridos + demostración extremo a extremo sobre HTTP real
+     tests/        11 pruebas (pytest)
+     bot/          bot de Telegram (consentimiento por botón nativo)
+     webapp/       device.html (PWA con GPS) y dashboard.html (panel Leaflet + OpenStreetMap)
+     data/         base de datos y salidas JSON reales de la demo
+     figuras_parte2/  14 figuras (arquitectura, ER, secuencia, API, pytest, mapas, telemetría, UI)
+     requirements.txt, README.md
+
+CÓMO EJECUTAR (resumen)
+  Parte 1:  cd Parte1_seguridad_redes/scripts && python3 caso1_synflood.py (… caso10_xmpp.py)
+            cd ../evidencias && sha256sum -c SHA256SUMS.txt
+  Parte 2:  pip install -r Parte2_geoconsent/requirements.txt
+            python3 Parte2_geoconsent/backend/app.py          (API en 127.0.0.1:5055)
+            python3 Parte2_geoconsent/simulator/run_demo.py   (demo extremo a extremo)
+            python3 -m pytest Parte2_geoconsent/tests/ -v     (11 pruebas)
+            Abrir Parte2_geoconsent/webapp/device.html y dashboard.html en el navegador.
+
+NOTA ÉTICA
+  Todo el material es académico. La Parte I usa evidencia sintética (salvo las pruebas TLS reales
+  del Caso 10). La Parte II rastrea la ubicación SOLO con el consentimiento verificado del titular;
+  no incluye técnica alguna para localizar un número o un celular sin la participación de su dueño.

@@ -1,0 +1,29 @@
+{
+ "consent_log": [
+  {
+   "actor": "owner:1",
+   "event": "enroll_invited",
+   "note": "phone=+573001112233",
+   "ts": "2026-11-17T20:30:34-05:00"
+  },
+  {
+   "actor": "device:dev_d06b0eac501d",
+   "event": "consent_granted",
+   "note": "c\u00f3digo verificado por el titular",
+   "ts": "2026-11-17T20:30:34-05:00"
+  },
+  {
+   "actor": "device:dev_d06b0eac501d",
+   "event": "sharing_paused",
+   "note": "",
+   "ts": "2026-11-17T20:30:35-05:00"
+  },
+  {
+   "actor": "device:dev_d06b0eac501d",
+   "event": "sharing_active",
+   "note": "",
+   "ts": "2026-11-17T20:30:35-05:00"
+  }
+ ],
+ "device_id": "dev_d06b0eac501d"
+}

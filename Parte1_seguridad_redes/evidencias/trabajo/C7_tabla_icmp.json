@@ -1,0 +1,134 @@
+[
+ {
+  "origen": "192.168.50.77",
+  "paquetes": 541,
+  "destinos_unicos": 2,
+  "tipos": {
+   "0/0": 1,
+   "8/0": 540
+  },
+  "payload_min": 0,
+  "payload_med": 1213,
+  "payload_max": 1400,
+  "entropia_media": 7.82,
+  "interarribo_med_s": 1.005,
+  "duracion_s": 837.9,
+  "respuestas_payload_distinto": 540,
+  "respuestas_payload_igual": 0
+ },
+ {
+  "origen": "192.168.50.250",
+  "paquetes": 541,
+  "destinos_unicos": 2,
+  "tipos": {
+   "0/0": 541
+  },
+  "payload_min": 0,
+  "payload_med": 1150,
+  "payload_max": 1400,
+  "entropia_media": 7.81,
+  "interarribo_med_s": 1.005,
+  "duracion_s": 833.4,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 0
+ },
+ {
+  "origen": "192.168.50.66",
+  "paquetes": 254,
+  "destinos_unicos": 254,
+  "tipos": {
+   "8/0": 254
+  },
+  "payload_min": 0,
+  "payload_med": 0,
+  "payload_max": 0,
+  "entropia_media": 0,
+  "interarribo_med_s": 0.025,
+  "duracion_s": 6.4,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 7
+ },
+ {
+  "origen": "192.168.50.10",
+  "paquetes": 17,
+  "destinos_unicos": 2,
+  "tipos": {
+   "8/0": 16,
+   "0/0": 1
+  },
+  "payload_min": 0,
+  "payload_med": 32,
+  "payload_max": 32,
+  "entropia_media": 4.18,
+  "interarribo_med_s": 1.0,
+  "duracion_s": 903.0,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 16
+ },
+ {
+  "origen": "192.168.50.20",
+  "paquetes": 17,
+  "destinos_unicos": 2,
+  "tipos": {
+   "0/0": 17
+  },
+  "payload_min": 0,
+  "payload_med": 32,
+  "payload_max": 32,
+  "entropia_media": 4.18,
+  "interarribo_med_s": 1.0,
+  "duracion_s": 903.0,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 0
+ },
+ {
+  "origen": "192.168.50.1",
+  "paquetes": 6,
+  "destinos_unicos": 3,
+  "tipos": {
+   "0/0": 1,
+   "11/0": 3,
+   "3/4": 2
+  },
+  "payload_min": 0,
+  "payload_med": 28,
+  "payload_max": 28,
+  "entropia_media": 0.19,
+  "interarribo_med_s": 1.0,
+  "duracion_s": 351.0,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 0
+ },
+ {
+  "origen": "192.168.50.30",
+  "paquetes": 1,
+  "destinos_unicos": 1,
+  "tipos": {
+   "0/0": 1
+  },
+  "payload_min": 0,
+  "payload_med": 0,
+  "payload_max": 0,
+  "entropia_media": 0,
+  "interarribo_med_s": null,
+  "duracion_s": 0.0,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 0
+ },
+ {
+  "origen": "192.168.50.53",
+  "paquetes": 1,
+  "destinos_unicos": 1,
+  "tipos": {
+   "0/0": 1
+  },
+  "payload_min": 0,
+  "payload_med": 0,
+  "payload_max": 0,
+  "entropia_media": 0,
+  "interarribo_med_s": null,
+  "duracion_s": 0.0,
+  "respuestas_payload_distinto": 0,
+  "respuestas_payload_igual": 0
+ }
+]

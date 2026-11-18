@@ -1,0 +1,12 @@
+{
+ "valido": "CONNECTION ESTABLISHED\nProtocol version: TLSv1.3\nCiphersuite: TLS_AES_256_GCM_SHA384\nPeer certificate: O = UD Lab Redes (academico), CN = xmpp.lab.test\nHash used: SHA256\nSignature type: ECDSA\nVerification: OK\nVerified peername: xmpp.lab.test\nServer Temp Key: X25519, 253 bits\nDONE\n",
+ "tls11": "401794A5EF7F0000:error:0A00042E:SSL routines:ssl3_read_bytes:tlsv1 alert protocol version:../ssl/record/rec_layer_s3.c:1599:SSL alert number 70\n",
+ "tls12": "CONNECTION ESTABLISHED\nProtocol version: TLSv1.2\nCiphersuite: ECDHE-ECDSA-AES256-GCM-SHA384\nPeer certificate: O = UD Lab Redes (academico), CN = xmpp.lab.test\nHash used: SHA256\nSignature type: ECDSA\nVerification: OK\nSupported Elliptic Curve Point Formats: uncompressed:ansiX962_compressed_prime:ansiX962_compressed_char2\nServer Temp Key: X25519, 253 bits\nDONE\n",
+ "vencido": "depth=0 O = UD Lab Redes (academico), CN = conference.lab.test\nverify error:num=10:certificate has expired\nnotAfter=Sep 30 23:59:00 2026 GMT\n4067105E797F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:1889:\n",
+ "nombre": "depth=0 O = UD Lab Redes (academico), CN = localhost\nverify error:num=62:hostname mismatch\n40479164557F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:1889:\n",
+ "x509_valido": "subject=O = UD Lab Redes (academico), CN = xmpp.lab.test\nissuer=C = CO, O = UD Lab Redes (academico), CN = LAB-CA Raiz 2026\nnotBefore=Oct  1 00:00:00 2026 GMT\nnotAfter=Jan  1 00:00:00 2027 GMT\nX509v3 Subject Alternative Name: \n    DNS:xmpp.lab.test, DNS:lab.test, IP Address:192.168.50.30\nsha256 Fingerprint=9D:58:95:83:1D:AC:B5:DD:3C:C4:FF:58:78:97:BB:8F:5A:70:7A:BA:68:C0:98:77:7D:1C:28:74:2D:51:25:60\n",
+ "x509_vencido": "subject=O = UD Lab Redes (academico), CN = conference.lab.test\nnotAfter=Sep 30 23:59:00 2026 GMT\nCertificate will expire\n",
+ "verify_cadena": "/home/claude/taller/evidencias/pki/xmpp-valido.crt: OK\n/home/claude/taller/evidencias/pki/admin-nombre-incorrecto.crt: OK\nO = UD Lab Redes (academico), CN = conference.lab.test\nerror 10 at 0 depth lookup: certificate has expired\nerror /home/claude/taller/evidencias/pki/conference-vencido.crt: verification failed\n",
+ "fecha_ejecucion": "2026-11-17T20:00:16-05:00",
+ "openssl": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)"
+}

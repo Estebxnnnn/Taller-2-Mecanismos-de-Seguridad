@@ -1,0 +1,86 @@
+{
+ "base_estadistica_z>3.5": {
+  "TP": 10,
+  "FP": 121,
+  "FN": 123,
+  "TN": 2626,
+  "precision": 0.076,
+  "recall": 0.075,
+  "F1": 0.076,
+  "FPR": 0.044,
+  "exactitud": 0.9153,
+  "PR_AUC": 0.127
+ },
+ "isolation_forest": {
+  "TP": 53,
+  "FP": 9,
+  "FN": 80,
+  "TN": 2738,
+  "precision": 0.855,
+  "recall": 0.398,
+  "F1": 0.544,
+  "FPR": 0.0033,
+  "exactitud": 0.9691,
+  "PR_AUC": 0.595
+ },
+ "isolation_forest_persistencia_2de3": {
+  "TP": 52,
+  "FP": 0,
+  "FN": 81,
+  "TN": 2747,
+  "precision": 1.0,
+  "recall": 0.391,
+  "F1": 0.562,
+  "FPR": 0.0,
+  "exactitud": 0.9719,
+  "PR_AUC": 0.595
+ },
+ "umbral_iforest_p99.5_entrenamiento": 0.5639,
+ "minutos_eval": 2880,
+ "minutos_anomalos": 133,
+ "prevalencia_pct": 4.62,
+ "sklearn": "1.9.1",
+ "clasificador_trivial_todo_normal_exactitud": 0.9538,
+ "deteccion_por_escenario": {
+  "normal": {
+   "minutos": 2627,
+   "base": 0.0,
+   "iforest": 0.0
+  },
+  "syn_flood": {
+   "minutos": 10,
+   "base": 1.0,
+   "iforest": 1.0
+  },
+  "escaneo_puertos": {
+   "minutos": 5,
+   "base": 0.0,
+   "iforest": 1.0
+  },
+  "tunel_dns": {
+   "minutos": 30,
+   "base": 0.0,
+   "iforest": 0.47
+  },
+  "escaneo_lento": {
+   "minutos": 60,
+   "base": 0.0,
+   "iforest": 0.0
+  },
+  "exfiltracion_http": {
+   "minutos": 20,
+   "base": 0.0,
+   "iforest": 1.0
+  },
+  "carga_legitima": {
+   "minutos": 120,
+   "base": 1.0,
+   "iforest": 0.0
+  },
+  "rst_inyectados": {
+   "minutos": 8,
+   "base": 0.0,
+   "iforest": 0.38
+  }
+ }
+}

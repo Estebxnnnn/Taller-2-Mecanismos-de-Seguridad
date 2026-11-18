@@ -1,0 +1,94 @@
+{
+ "alerts": [
+  {
+   "acknowledged": 0,
+   "detail": {
+    "geofence": "Casa",
+    "radius_m": 200.0
+   },
+   "device_id": "dev_d06b0eac501d",
+   "epoch": 1794663040.0,
+   "geofence_id": 2,
+   "gname": "Casa",
+   "id": 5,
+   "kind": "geofence_enter",
+   "owner_id": 1,
+   "ts": "2026-11-14T08:30:40-05:00"
+  },
+  {
+   "acknowledged": 0,
+   "detail": {
+    "geofence": "Campus UD",
+    "radius_m": 300.0
+   },
+   "device_id": "dev_d06b0eac501d",
+   "epoch": 1794662040.0,
+   "geofence_id": 1,
+   "gname": "Campus UD",
+   "id": 4,
+   "kind": "geofence_exit",
+   "owner_id": 1,
+   "ts": "2026-11-14T08:14:00-05:00"
+  },
+  {
+   "acknowledged": 0,
+   "detail": {
+    "geofence": "Campus UD",
+    "radius_m": 300.0
+   },
+   "device_id": "dev_d06b0eac501d",
+   "epoch": 1794661960.0,
+   "geofence_id": 1,
+   "gname": "Campus UD",
+   "id": 3,
+   "kind": "geofence_enter",
+   "owner_id": 1,
+   "ts": "2026-11-14T08:12:40-05:00"
+  },
+  {
+   "acknowledged": 0,
+   "detail": {
+    "geofence": "Campus UD",
+    "radius_m": 300.0
+   },
+   "device_id": "dev_aeba7426116e",
+   "epoch": 1794661880.0,
+   "geofence_id": 1,
+   "gname": "Campus UD",
+   "id": 6,
+   "kind": "geofence_enter",
+   "owner_id": 1,
+   "ts": "2026-11-14T08:11:20-05:00"
+  },
+  {
+   "acknowledged": 0,
+   "detail": {
+    "geofence": "Campus UD",
+    "radius_m": 300.0
+   },
+   "device_id": "dev_d06b0eac501d",
+   "epoch": 1794661680.0,
+   "geofence_id": 1,
+   "gname": "Campus UD",
+   "id": 2,
+   "kind": "geofence_exit",
+   "owner_id": 1,
+   "ts": "2026-11-14T08:08:00-05:00"
+  },
+  {
+   "acknowledged": 0,
+   "detail": {
+    "geofence": "Campus UD",
+    "radius_m": 300.0
+   },
+   "device_id": "dev_d06b0eac501d",
+   "epoch": 1794661480.0,
+   "geofence_id": 1,
+   "gname": "Campus UD",
+   "id": 1,
+   "kind": "geofence_enter",
+   "owner_id": 1,
+   "ts": "2026-11-14T08:04:40-05:00"
+  }
+ ]
+}

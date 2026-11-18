@@ -1,0 +1,2 @@
+14878 154 Counter({'B · puerto cerrado (RST/ACK al SYN)': 69, 'C · cierre abortivo del cliente': 56, 'A · coincide con reinicio de servicio (7036)': 15, 'D · RST con TTL/MAC incoherentes (posible inyección)': 7, "D' · RST del cliente tras desincronización": 7})
+105d10b8d88c758bfb586bcce687468c3a9095f11d1451a0ffd8a69a14805d1f

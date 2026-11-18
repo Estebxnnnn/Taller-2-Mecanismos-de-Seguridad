@@ -1,0 +1,5 @@
+{'origen': 'estaciones .101–.112', 'consultas': 919, 'por_min': 61.3, 'unicos': 10, 'long_media': 13.7, 'etiqueta_max': 9, 'entropia_media': 2.04, 'pct_txt': 0.0, 'resp_media': 89.7, 'resolver': '192.168.50.53', 'dominio_top': 'time.lab.test'}
+{'origen': '192.168.50.115', 'consultas': 30, 'por_min': 2.0, 'unicos': 19, 'long_media': 26.5, 'etiqueta_max': 12, 'entropia_media': 3.14, 'pct_txt': 0.0, 'resp_media': 102.5, 'resolver': '192.168.50.53', 'dominio_top': 'telemetria.lab.test'}
+{'origen': '192.168.50.44', 'consultas': 952, 'por_min': 63.5, 'unicos': 952, 'long_media': 124, 'etiqueta_max': 60, 'entropia_media': 4.83, 'pct_txt': 100.0, 'resp_media': 261, 'resolver': '192.168.50.53', 'dominio_top': 't.exfil-lab.test'}
+{'origen': '192.168.50.66', 'consultas': 25, 'por_min': 1.7, 'unicos': 10, 'long_media': 13.6, 'etiqueta_max': 9, 'entropia_media': 2.02, 'pct_txt': 0.0, 'resp_media': 89.6, 'resolver': '192.168.50.99', 'dominio_top': 'time.lab.test'}
+pk 3852 3839bd493f952a237257c17b5136b5937251a44ae126f663ff5e44c49eaed995

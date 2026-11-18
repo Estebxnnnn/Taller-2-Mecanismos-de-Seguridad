@@ -1,0 +1,52 @@
+===== valido 
+ CONNECTION ESTABLISHED
+Protocol version: TLSv1.3
+Ciphersuite: TLS_AES_256_GCM_SHA384
+Peer certificate: O = UD Lab Redes (academico), CN = xmpp.lab.test
+Hash used: SHA256
+Signature type: ECDSA
+Verification: OK
+Verified peername: xmpp.lab.test
+Server Temp Key: X25519, 253 bits
+DONE
+
+===== tls11 
+ 40679D55407F0000:error:0A0000BF:SSL routines:tls_setup_handshake:no protocols available:../ssl/statem/statem_lib.c:104:
+
+===== vencido 
+ depth=0 O = UD Lab Redes (academico), CN = conference.lab.test
+verify error:num=10:certificate has expired
+notAfter=Sep 30 23:59:00 2026 GMT
+40373744A87F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:1889:
+
+===== nombre 
+ depth=0 O = UD Lab Redes (academico), CN = localhost
+verify error:num=62:hostname mismatch
+40D73D20E47F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:1889:
+
+===== x509_valido 
+ subject=O = UD Lab Redes (academico), CN = xmpp.lab.test
+issuer=C = CO, O = UD Lab Redes (academico), CN = LAB-CA Raiz 2026
+notBefore=Oct  1 00:00:00 2026 GMT
+notAfter=Jan  1 00:00:00 2027 GMT
+X509v3 Subject Alternative Name: 
+    DNS:xmpp.lab.test, DNS:lab.test, IP Address:192.168.50.30
+sha256 Fingerprint=05:BA:79:D3:CE:72:D0:79:06:04:64:04:4A:75:AB:ED:0C:30:13:D6:45:7F:82:BD:0B:59:61:02:C6:FE:23:62
+
+===== x509_vencido 
+ subject=O = UD Lab Redes (academico), CN = conference.lab.test
+notAfter=Sep 30 23:59:00 2026 GMT
+Certificate will expire
+
+===== verify_cadena 
+ /home/claude/taller/evidencias/pki/xmpp-valido.crt: OK
+/home/claude/taller/evidencias/pki/admin-nombre-incorrecto.crt: OK
+O = UD Lab Redes (academico), CN = conference.lab.test
+error 10 at 0 depth lookup: certificate has expired
+error /home/claude/taller/evidencias/pki/conference-vencido.crt: verification failed
+
+===== fecha_ejecucion 
+ 2026-11-17T19:49:30-05:00
+===== openssl 
+ OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+41 4f37a24016e188d85e2d198ff689c7f5beac74b188bba4d56ff91fad94d7dd7b
